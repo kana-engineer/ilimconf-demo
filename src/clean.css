@@ -1,0 +1,67 @@
+/* IlimConf · Clean Modern: accessible, calm, no decorative effects */
+:root{font-family:Inter,Arial,sans-serif;color:#1e293b;background:#f8fafc}
+html{scroll-behavior:auto}
+body{background:#f8fafc}
+*,*::before,*::after{border-radius:3px!important;animation:none!important;transition:none!important;transform:none!important;filter:none!important;text-shadow:none!important}
+svg{display:none!important}
+button,a,input,select,textarea{font-family:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #2563eb!important;outline-offset:2px}
+.page-width{width:min(1160px,calc(100% - 48px))}
+.top-strip{background:#173756;height:32px;font-size:12px;font-weight:500;letter-spacing:0}
+.site-header{border-bottom:1px solid #dfe5ee;box-shadow:none;background:#fff}
+.logo-mark,.overline-dot,.hero-glow,.hero-visual,.proof-avatars,.feature-icon,.step-icon,.art-orbit,.art-symbol,.art-tiny,.art-topbadge,.cta-decoration,.cta-glyph{display:none!important}
+.site-header .page-width{height:74px}
+.site-header nav{gap:25px;font-size:15px}
+.site-header .text-\[21px\]{font-size:25px!important;letter-spacing:-.04em}
+.site-header .text-\[\#5b66e8\]{color:#1d5686!important}
+.nav-link{color:#34445a}
+.nav-link:hover{color:#1d5686}
+.primary-button,.card-button,.white-button{background:#1c527e!important;color:#fff!important;box-shadow:none!important;font-size:15px;font-weight:650;border:1px solid #1c527e}
+.primary-button:hover,.card-button:hover,.white-button:hover{background:#153e60!important}
+.secondary-button{border:1px solid #bccbd9;color:#1c527e;background:#fff;font-size:15px}
+.hero-section{background:#eff4f8;border-bottom:1px solid #dae4ec}
+.hero-grid{display:block;min-height:auto;padding-top:85px;padding-bottom:88px}
+.hero-copy{max-width:760px;animation:none}
+.hero-heading{font-size:clamp(37px,4.5vw,60px);line-height:1.18;letter-spacing:-.045em;margin-top:21px;max-width:790px;color:#173756}
+.gradient-words{background:none!important;color:#245f90!important;-webkit-text-fill-color:#245f90}
+.overline{color:#35648b;letter-spacing:.07em;font-size:13px}
+.hero-copy p{font-size:18px;line-height:1.8;color:#475569}
+.hero-proof{margin-top:34px;border-left:3px solid #bbcfe0;padding-left:16px}
+.features-ribbon{padding:20px 0;border-color:#e2e8f0}
+.features-ribbon .flex.gap-4{padding-top:12px;padding-bottom:12px}
+.features-ribbon .text-\[13px\]{font-size:14px!important}
+.section-space{padding:65px 0}
+.section-heading{font-size:clamp(28px,3vw,39px);letter-spacing:-.035em;color:#173756;margin-top:13px}
+.section-heading span{color:#245f90}
+.section-desc{font-size:16px;line-height:1.7}
+.filter-chip{background:#fff;border:1px solid #cad5e2;color:#334155;font-size:14px;font-weight:600;box-shadow:none;padding:12px 16px}
+.filter-chip.active{background:#1c527e;color:#fff;box-shadow:none;border-color:#1c527e}
+.searchbox{border-color:#cbd5e1;min-width:250px;padding:13px 15px;color:#475569}
+.searchbox input{font-size:15px}
+.conference-card{border-color:#dce3ec;box-shadow:0 2px 8px #172a3b0a;background:#fff}
+.conference-card:hover{box-shadow:0 2px 8px #172a3b0a}
+.card-art{height:76px;background:#eaf0f6!important;border-bottom:1px solid #dce3ec}
+.card-art:before{content:'ИЛИМИЙ КОНФЕРЕНЦИЯ';position:absolute;top:26px;left:26px;font-size:12px;letter-spacing:.08em;color:#375b7d;font-weight:700}
+.conference-card h3{font-size:20px;min-height:84px;letter-spacing:-.02em}
+.category-pill{background:#eaf1f7;color:#245f90;font-size:12px}
+.card-button{justify-content:center}
+.how-section{background:#f1f5f9}
+.step-card{border-color:#dce3ec;padding:28px;box-shadow:none}
+.step-card:hover{box-shadow:none}
+.cta-banner{background:#173756!important;padding:50px 54px}
+.footer{background:#142d47}
+.modal-overlay{backdrop-filter:none!important;background:#0e223b99}
+.modal-panel{box-shadow:0 16px 45px #07122e33;padding:32px;border:1px solid #cbd5e1}
+.close-modal{background:#eff3f7;min-height:38px;min-width:38px}
+.close-modal:after{content:'×';font-size:24px;line-height:18px}
+.form-label{font-size:15px;font-weight:650}
+.form-input{font-size:16px;border-color:#b9c7d7;padding:13px 14px}
+.form-input:focus{border-color:#1c527e}
+.admin-stat{background:#f1f5f9;border-color:#dce3ec}
+.admin-stat strong{color:#1c527e}
+.admin-stat span{font-size:13px}
+.admin-filter,.admin-submission{border-color:#cbd5e1;font-size:14px}
+.admin-status{font-size:12px}
+.admin-action{font-size:13px;border-color:#b9c7d7;color:#1c527e;background:white}
+.admin-action:hover{background:#edf3f9}
+@media(max-width:767px){.page-width{width:calc(100% - 32px)}.site-header .page-width{height:67px}.hero-grid{padding-top:55px;padding-bottom:60px}.hero-copy{text-align:left}.hero-copy .overline{justify-content:flex-start}.hero-heading{font-size:38px}.hero-copy p{font-size:17px;margin-left:0;margin-right:0}.hero-copy>div:nth-of-type(1){justify-content:flex-start}.hero-proof{justify-content:flex-start;margin-top:28px}.section-space{padding:48px 0}.section-heading{font-size:30px}.cta-banner{padding:34px 24px}.site-header button[aria-label='Меню']{border:1px solid #d1dbe6;background:white;padding:12px 16px}.site-header button[aria-label='Меню']:after{content:'Меню';font-size:15px;font-weight:650;color:#1c527e}.modal-panel{padding:27px 20px}}
